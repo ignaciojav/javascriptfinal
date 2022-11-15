@@ -1,0 +1,43 @@
+@import "../base/colors";
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/variables";
+
+footer{
+    
+    // background-color: $color-gris;
+    @include bk($color-gris);
+     //display: flex;
+     //flex-direction: column;
+     //list-style: none ;
+     h5{
+         color: $color-negro;
+         margin-bottom: nth($tamaños, 2);
+     }
+     nav{
+         li{
+             a:hover{
+                 @include bk($color-hover);
+                 //background-color: $color-hover;
+             }
+             a{
+                 text-decoration: none;
+             }
+             img{
+                 width: nth($tamaños, 2);
+             }
+         }
+     
+ }
+ ul{
+     li{
+         img{
+             width: nth($tamaños, 2);
+         }
+     }
+ }
+
+ 
+ }
+ 

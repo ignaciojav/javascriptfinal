@@ -1,0 +1,13 @@
+@import "base/variables";
+
+%card{
+    background-color: $color-card;
+    color: $font-color;
+    height: 100%;
+}
+
+%card-img{
+    height: 250px;
+    object-fit: contain;
+
+}

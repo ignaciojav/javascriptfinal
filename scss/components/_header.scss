@@ -1,0 +1,21 @@
+@import "../base/colors";
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/variables";
+
+header{
+    @include bk($color-negro);
+   //background-color: $color-negro;
+   h1{
+       color: $color-negro;
+    }
+    a{
+        text-decoration: none;
+   font-size: nth($tamaños, 4);
+   color: $color-blanco;
+   }
+.img-logo{
+    width: nth($tamaños, 8);
+}
+}

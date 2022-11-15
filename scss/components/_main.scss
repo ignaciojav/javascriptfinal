@@ -1,0 +1,62 @@
+@import "../base/colors";
+@import "../base/listas";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/variables";
+
+main{ 
+    background-image: url(../multimedia/imagenes/wallpaper-neon.jpg);
+    padding: nth($tamaños, 3);
+    margin-bottom: 0%;
+    //-----------------------------------------------carrousel-------------------------
+    .carousel-edit {
+        height: 600px;
+      }
+      
+      @media only screen and (max-width: 991px) {
+        .carousel-edit {
+          height: auto;
+        }
+      }
+
+      //--------------------articulos-----------------------------
+      .articulos-main{
+        display: none;
+    }
+
+    @media screen and (min-width: 600px){
+        .articulos-main{
+            display: block;
+            
+    }
+    }
+
+    //------------------whatsapp-------------------------------------------------------------
+
+    
+
+    .item-fixed {
+        position: fixed;
+        bottom:0;
+        right: 0;
+    }
+    
+    .item-fixed {
+        img{
+                width: nth($tamaños, 7);
+    }
+}
+    .ul-whatsapp{
+        list-style-type: none;
+        margin: 0%;
+    }
+    //--------------------------------------------------------card----------------------------
+    .card-style{
+        @extend %card;
+    }
+    .card-style img{
+       @extend %card-img;
+    }
+
+  
+}

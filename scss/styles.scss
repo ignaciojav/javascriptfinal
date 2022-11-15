@@ -1,0 +1,46 @@
+@import "components/header";
+@import "components/footer";
+@import "base/colors";
+@import "base/listas";
+@import "base/extends";
+@import "base/mixins";
+@import "base/variables";
+@import "components/main";
+
+
+.disclaimer{
+    display: none;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+//---------------VARIABLES-----------------
+//$color-negro:#070606f1;
+//$color-gris:#5f5c5c;
+//$color-blanco:rgb(238, 231, 231);
+//$color-hover: rgb(56, 54, 54);
+//$color-card: rgb(241, 213, 211);
+//s$font-color:rgb(19, 18, 18);
+
+//--------------------------------------------------------------------------HEADER-------------------------------------------------------------------
+//header{
+  //  @include bk($color-negro);
+   //background-color: $color-negro;
+ //  h1{
+   //    color: $color-negro;
+//    }
+ //   a{
+  //      text-decoration: none;
+  // font-size: nth($tamaños, 4);
+ //  color: $color-blanco;
+ //  }
+//.img-logo{
+   // width: nth($tamaños, 8);
+//}
+//}
+//------------------------------------------------------------------------------MAIN-----------------------------------------------------------------
+
+//-----------------------------------------------FOOTER---------------------------------------------------
+
